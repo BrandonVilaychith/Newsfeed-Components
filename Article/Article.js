@@ -19,6 +19,7 @@ class Article {
     // Using our reference to the domElement, toggle a class to expand or hide the article.
     console.log('hello');
     this.domElement.classList.toggle('article-open');
+      TweenMax.from(this.domElement, 1, {height: 50});
   }
 }
 

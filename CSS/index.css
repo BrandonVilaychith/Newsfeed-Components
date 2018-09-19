@@ -46,8 +46,10 @@
   top: 75px;
   left: 0;
   width: 350px;
+  height: 100vh;
+  /* This give the height 100% of the screen or, '100% of View Height' */
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.86);
+  background-color: rgba(0, 0, 0, 0.9);
   border: 1px solid white;
   color: white;
   border-left: none;
@@ -61,15 +63,19 @@
   padding: 30px 0;
   text-align: center;
 }
+.menu ul li:hover {
+  color: #97d8f7;
+  font-size: 30px;
+}
 .menu--open {
   display: block;
 }
 .articles {
-  background-image: url('https://images.unsplash.com/photo-1537246182273-c64430cae82b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4517f68b40bda3e96cccc33ce7ac98fa&auto=format&fit=crop&w=1534&q=80');
+  background-image: url('https://images.unsplash.com/photo-1537351965091-87435de9f500?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=da21c275528dd86547a939ef0c84a644&auto=format&fit=crop&w=1301&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 1600px;
+  height: 1300px;
   padding-top: 30px;
 }
 .article {
